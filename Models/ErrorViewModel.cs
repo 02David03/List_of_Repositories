@@ -1,6 +1,6 @@
 using System;
 
-namespace Avonale_test.Models
+namespace List_of_Repositories.Models
 {
     public class ErrorViewModel
     {
