@@ -23,7 +23,12 @@ namespace List_of_Repositories.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult repositories()
+        {
+            return View();
+        }
+
+        public IActionResult favorites()
         {
             return View();
         }

@@ -20,7 +20,6 @@ D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Re
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.TagHelpers.output.cache
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.RazorCoreGenerate.cache
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -35,3 +34,6 @@ D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Re
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.pdb
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.genruntimeconfig.cache
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.csproj.CopyComplete
+D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\favorites.cshtml.g.cs
+D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\repositories.cshtml.g.cs
+D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\view.cshtml.g.cs

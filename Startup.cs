@@ -40,6 +40,11 @@ namespace List_of_Repositories
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
+
+            app.UseDefaultFiles();
+            
             app.UseStaticFiles();
 
             app.UseRouting();
