@@ -23,12 +23,17 @@ namespace List_of_Repositories.Controllers
             return View();
         }
 
-        public IActionResult repositories()
+        public IActionResult Repositories()
         {
             return View();
         }
 
-        public IActionResult favorites()
+        public IActionResult Favorites()
+        {
+            return View();
+        }
+
+        public IActionResult Details(int id)
         {
             return View();
         }

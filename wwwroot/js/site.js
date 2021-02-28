@@ -51,18 +51,22 @@ function show (data) {
                 <th scope = "col" class = text-center> Nome </th>
                 <th scope = "col" class = text-center> Descrição </th>
                 <th scope = "col" class = text-center> Link </th>
-                <th scope = "col"> </th>
+                <th scope = "col" class = text-center> Visualizar </th>
+                <th scope = "col" class = text-center> </th>
             </tr>
         </thread>`;
     
     for (let rep of data){
         tab +=  
-        `<tr id = "${data.id}">
-        <td scope = "row" class = text-center> ${rep.name} </td>
-        <td class = text-center> ${rep.description}</td>
-        <td class = text-center> <a href = "https://github.com/${rep.full_name}" >${rep.full_name} </td> 
-        <td class = text-center> <i class="far fa-star"></i> </td>
-        </tr>`;
+        `   
+        <tr id = "${rep.id}">     
+        <td scope = "row" class = text-center>  ${rep.name} </td>
+        <td class = "text-center"> ${rep.description}</td>
+        <td class = "text-center"><a href = "https://github.com/${rep.full_name}" class = "text-primary" >${rep.full_name} <a </td>
+        <td class = "text-center"><a href = "#" class = "text-info"><i class="fas fa-external-link-alt"></i></a></td>
+        <td class = "text-center"><i class="far fa-star"></i> </td> 
+        </tr>
+        `;
     }
     document.getElementById("repositories").innerHTML = tab;
 }
