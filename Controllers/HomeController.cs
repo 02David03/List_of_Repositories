@@ -33,7 +33,7 @@ namespace List_of_Repositories.Controllers
             return View();
         }
 
-        public IActionResult Details(int id)
+        public IActionResult Details(id)
         {
             return View();
         }

@@ -54,8 +54,14 @@ namespace List_of_Repositories
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name:"repository",
+                    pattern:"repository/{id}",
+                    defaults: new {controller = "Repository", action = " Details"}
+
+                )
+                endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{action?}/{id?}");
             });
         }
     }
