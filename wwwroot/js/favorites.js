@@ -57,7 +57,21 @@ function setStarStyle(id){
 
 // Creation of a table with the data, and then it goes to the HTML page
 function show (data) {
-    let tab = 
+
+    let favData = [];
+
+    for (rep of data){
+        if (localStorage.getItem(rep.id) == null) continue;
+        else favData.push(rep);
+    }
+    
+    let tab;
+    console.log(favData);
+    if (favData.length == 0){
+        tab = `<h4 class ="text-center">Não há nenhum repositorio marcado como favorito <i class="fas fa-frown"></i></h4>`;
+    }
+    else {
+        tab = 
         `<thread>
             <tr>
                 <th scope = "col" class = text-center> Nome </th>
@@ -67,17 +81,17 @@ function show (data) {
             </tr>
         </thread>`;
     
-    for (let rep of data){
-        tab +=  
-        `   
-        <tr id = "${rep.id}">     
-        <td scope = "row" class = text-center> <a href= "/Home/Details/${rep.name}" class = "text-primary"> ${rep.name} <i class="fas fa-external-link-alt"></i></a> </td>
-        <td class = "text-center"> ${rep.description}</td>
-        <td class = "text-center"><a href = "https://github.com/${rep.full_name}" target="_blank" class = "text-primary" >${rep.full_name} <a </td>
-        <td class = "text-center" id = "buttonStorage"><button type = "button" id = "${rep.id}" value = ${rep.name}
-        onclick = "setFavorite(this.id,this.value)" style = "padding: 0; border: none; background: none;"> ${setStarStyle(rep.id)}</button> </td> 
-        </tr>
-        `;
+        for (let rep of favData){
+            tab +=  
+            `   
+            <tr id = "${rep.id}">     
+            <td scope = "row" class = text-center> <a href= "/Home/Details/${rep.name}" class = "text-primary"> ${rep.name} <i class="fas fa-external-link-alt"></i></a> </td>
+            <td class = "text-center"> ${rep.description}</td>
+            <td class = "text-center"><a href = "https://github.com/${rep.full_name} " target="_blank" class = "text-primary" >${rep.full_name} <a </td>
+            <td class = "text-center" id = "buttonStorage"><button type = "button" id = "${rep.id}" value = ${rep.name}
+            onclick = "setFavorite(this.id,this.value)" style = "padding: 0; border: none; background: none;"> ${setStarStyle(rep.id)}</button> </td> 
+            </tr>`;
+        }
     }
     document.getElementById("repositories").innerHTML = tab;
 }

@@ -32,11 +32,11 @@ namespace List_of_Repositories.Controllers
         {
             return View();
         }
-
-        public IActionResult Details(id)
+        public IActionResult Details(int name)
         {
-            return View();
+        return View(name);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

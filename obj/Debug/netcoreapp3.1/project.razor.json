@@ -14427,8 +14427,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Projects\\Avonale_test\\List_of_Repositories\\Views\\Home\\Details.cshtml",
-      "TargetPath": "Views\\Home\\Details.cshtml",
+      "FilePath": "d:\\Projects\\Avonale_test\\List_of_Repositories\\Views\\Home\\details.cshtml",
+      "TargetPath": "Views\\Home\\details.cshtml",
       "FileKind": "mvc"
     },
     {

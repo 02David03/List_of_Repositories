@@ -36,7 +36,6 @@ D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Re
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.csproj.CopyComplete
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\favorites.cshtml.g.cs
 D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\repositories.cshtml.g.cs
-D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\view.cshtml.g.cs
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -76,3 +75,4 @@ C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Reposit
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.pdb
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.genruntimeconfig.cache
 C:\Users\david\OneDrive\Documentos\Projects\List_of_repositories\List_of_Repositories\obj\Debug\netcoreapp3.1\List_of_Repositories.csproj.CopyComplete
+D:\Projects\Avonale_test\List_of_Repositories\obj\Debug\netcoreapp3.1\Razor\Views\Home\details.cshtml.g.cs

@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\OneDrive\\Documentos\\Projects\\List_of_repositories\\List_of_Repositories\\List_of_Repositories.csproj": {}
+    "D:\\Projects\\Avonale_test\\List_of_Repositories\\List_of_Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\OneDrive\\Documentos\\Projects\\List_of_repositories\\List_of_Repositories\\List_of_Repositories.csproj": {
+    "D:\\Projects\\Avonale_test\\List_of_Repositories\\List_of_Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\OneDrive\\Documentos\\Projects\\List_of_repositories\\List_of_Repositories\\List_of_Repositories.csproj",
+        "projectUniqueName": "D:\\Projects\\Avonale_test\\List_of_Repositories\\List_of_Repositories.csproj",
         "projectName": "List_of_Repositories",
-        "projectPath": "C:\\Users\\david\\OneDrive\\Documentos\\Projects\\List_of_repositories\\List_of_Repositories\\List_of_Repositories.csproj",
+        "projectPath": "D:\\Projects\\Avonale_test\\List_of_Repositories\\List_of_Repositories.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\OneDrive\\Documentos\\Projects\\List_of_repositories\\List_of_Repositories\\obj\\",
+        "outputPath": "D:\\Projects\\Avonale_test\\List_of_Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
