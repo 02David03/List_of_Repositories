@@ -1,4 +1,4 @@
-const api = 'https://api.github.com/users/02David03/repos';
+const api = `https://api.github.com/users/${localStorage.getItem("login")}/repos`;
 
 // This function fetchs the data from the api
 async function getapi(url) {

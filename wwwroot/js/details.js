@@ -1,4 +1,4 @@
-const api = 'https://api.github.com/repos/02David03';
+const api = `https://api.github.com/repos/${localStorage.getItem("login")}`;
 var url = window.location.pathname;
 //getting the name from the URL
 var nome = url.substring(url.lastIndexOf('/') + 1);
@@ -12,12 +12,11 @@ Promise.all([
 		return response.json();
 	}));
 }).then(function (data) {
-    console.log(data);
 	showData(data[0],data[1]);
 }).catch(function (error) {
 	console.log(error);
 });
-
+    
 //This function set or remove a repository from the storage 
 function setFavorite(id, name) {
     if(localStorage.getItem(id) == null){
@@ -63,7 +62,7 @@ function showData(data, contributors){
     }
     document.getElementById("owner").innerHTML = owner ;
     if (data.description == null) {
-        let message= `Esse repositorio não tem linguagem definida <i class="fas fa-frown"></i>`;
+        let message= `Esse repositorio não tem uma descrição <i class="fas fa-frown"></i>`;
         description = message;
     } else{
         description = data.description;
@@ -80,7 +79,9 @@ function showData(data, contributors){
         let message= `Esse repositorio não tem ultima data de atualização <i class="fas fa-frown"></i>`;
         document.getElementById("lastAtt").innerHTML = message;
     } else {
-        lastATT = data.pushed_at.split('T',1);
+        let message = data.pushed_at.split('-',3);
+        let day = message[2].split('T',1); 
+        lastATT = day + '/' + message[1] + '/' + message[0];
     }
     document.getElementById("lastAtt").innerHTML = lastATT;
     if (contributors == null){

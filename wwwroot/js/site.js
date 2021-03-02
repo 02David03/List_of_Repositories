@@ -3,4 +3,16 @@
 
 // Write your JavaScript code.
 
-var user = "02David03"
+var user = "02David03";
+
+$("#user-form").submit(function(event){
+    user = $("input").val();
+    localStorage.setItem("login",user);
+    alert("Transferido para os repositorios do úsuario " + user );
+    location.reload();
+    event.preventDefault();
+});
+
+
+if(localStorage.getItem("login"));
+else localStorage.setItem("login",user);

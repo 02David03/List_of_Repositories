@@ -7,13 +7,13 @@
     <div class="row justify-content-around">
         <div class="col-md-5 border border-3 border-top-0 border-left-0 rounded-lg shadow-sm bg-light " style= "margin-top: 35px;">
             <a class="text-dark" asp-area="" asp-controller="Home" asp-action="Repositories" style="text-decoration: none">
-            <h1 class="text-center text-secondary "> Repositorios </h1>
+            <h1 class="text-center text-secondary "> Repositórios </h1>
             <div class = "text-center" >
                 <i class="fas fa-sticky-note fa-10x " style="margin: 30px auto 30px"></i>
             </div>
             <div class = "" style= "height : 1px; width: 100%; background : gray; margin: 15px auto 15px " ></div> 
             <div> 
-                <p class="text-center font-weight-lighter" style="margin-bottom: 15px;">Aventure-se pelos incriveis repositorios do usuario 02David03  <i class="far fa-grin-squint"></i></p>
+                <p id = "repMsg" class="text-center font-weight-lighter" style="margin-bottom: 15px;"> </p>
             </div>
             </a> 
         </div>
@@ -25,9 +25,10 @@
             </div>
             <div class = "" style= "height : 1px; width: 100%; background : gray; margin: 15px auto 15px " ></div> 
             <div> 
-                <p class ="text-center font-weight-lighter" style="margin-bottom: 15px;">Aqui você encontrará os seus repositorios favoritos <i class="far fa-smile-wink"></i></p>
+                <p id ="favMsg"class ="text-center font-weight-lighter" style="margin-bottom: 15px;"> </i></p>
             </div>
             </a>          
         </div>
     </div>
 </div>
+<script src="~/js/index.js" asp-append-version="true"></script>
